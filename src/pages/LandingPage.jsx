@@ -15,25 +15,25 @@ const LandingPage = ({ onLoginClick }) => {
 
   const heroSlides = [
     {
-      image: '/src/assets/images/background.png',
+      image: '/images/background.png',
       title: 'Your Financial Future is Secure',
       subtitle: 'Building wealth on your terms with Caribbean-focused investments',
       cta: 'Get Started Today'
     },
     {
-      image: '/src/assets/images/arialcayman.jpg',
+      image: '/images/arialcayman.jpg',
       title: 'Expert Retirement Planning',
       subtitle: 'Comprehensive pension solutions tailored for you',
       cta: 'Learn More'
     },
     {
-      image: '/src/assets/images/boatport.jpg',
+      image: '/images/boatport.jpg',
       title: 'Trusted by Thousands',
       subtitle: 'Join the largest pension provider in the Cayman Islands',
       cta: 'Join Now'
     },
     {
-      image: '/src/assets/images/palm.jpeg',
+      image: '/images/palm.jpeg',
       title: 'Better Plan, Better Future',
       subtitle: 'Plan your life with confidence and peace of mind',
       cta: 'Apply Now'
@@ -155,7 +155,7 @@ const LandingPage = ({ onLoginClick }) => {
             }}
           >
             <img 
-              src="/src/assets/images/cutepalm.png" 
+              src="/images/cutepalm.png" 
               alt="" 
               className="w-12 h-12 object-contain"
               style={{
@@ -181,7 +181,7 @@ const LandingPage = ({ onLoginClick }) => {
                 transition={{ duration: 0.8, ease: "easeInOut" }}
               >
                 <img 
-                  src="/src/assets/images/logo2.png" 
+                  src="/images/logo2.png" 
                   alt="Silver Thatch Pensions" 
                   className="w-full h-full object-contain"
                 />
@@ -735,7 +735,7 @@ const LandingPage = ({ onLoginClick }) => {
                 {/* Background Image */}
                 <div 
                   className="absolute inset-0 bg-cover bg-center opacity-40"
-                  style={{ backgroundImage: 'url("/src/assets/images/backgrounds.png")' }}
+                  style={{ backgroundImage: 'url("/images/backgrounds.png")' }}
                 />
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-thatch-500/80 to-ocean-500/80" />
@@ -801,7 +801,7 @@ const LandingPage = ({ onLoginClick }) => {
                 {/* Background Image */}
                 <div 
                   className="absolute inset-0 bg-cover bg-center opacity-40"
-                  style={{ backgroundImage: 'url("/src/assets/images/boardoftrustees.jpg")' }}
+                  style={{ backgroundImage: 'url("/images/boardoftrustees.jpg")' }}
                 />
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-slate-custom-700/80 to-slate-custom-900/80" />
@@ -839,7 +839,7 @@ const LandingPage = ({ onLoginClick }) => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("/src/assets/images/boatport.jpg")',
+            backgroundImage: 'url("/images/boatport.jpg")',
           }}
         >
           {/* Dark Overlay for better text readability */}
@@ -881,7 +881,7 @@ const LandingPage = ({ onLoginClick }) => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/mangrovecayman.jpg"
+            src="/images/mangrovecayman.jpg"
             alt="Mangrove Background"
             className="w-full h-full object-cover opacity-60"
           />
@@ -1043,7 +1043,7 @@ const LandingPage = ({ onLoginClick }) => {
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <img 
-                    src="/src/assets/images/logo2.png" 
+                    src="/images/logo2.png" 
                     alt="Silver Thatch Pensions" 
                     className="w-full h-full object-contain"
                   />

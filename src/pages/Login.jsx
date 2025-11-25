@@ -27,7 +27,7 @@ const Login = ({ onLogin, onForgotPassword, onBack }) => {
           >
             <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-lg flex items-center justify-center shadow-float overflow-hidden">
               <img 
-                src="/src/assets/images/logo.png" 
+                src="/images/logo.png" 
                 alt="Silver Thatch Pensions Logo" 
                 className="w-full h-full object-contain"
               />
@@ -87,7 +87,7 @@ const Login = ({ onLogin, onForgotPassword, onBack }) => {
         <div 
           className="absolute inset-0 bg-cover bg-center animate-sway transition-transform duration-[5000ms] ease-out group-hover:scale-110"
           style={{
-            backgroundImage: 'url("/src/assets/images/background.png")',
+            backgroundImage: 'url("/images/background.png")',
           }}
         >
           {/* Gradient Overlay matching image colors */}
@@ -130,7 +130,7 @@ const Login = ({ onLogin, onForgotPassword, onBack }) => {
         <div 
           className="absolute inset-0 bg-cover bg-center animate-sway"
           style={{
-            backgroundImage: 'url("/src/assets/images/background.png")',
+            backgroundImage: 'url("/images/background.png")',
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-br from-thatch-600/80 via-ocean-500/70 to-thatch-800/80"></div>
