@@ -75,7 +75,7 @@ const DashboardHeader = ({ currentPage = 'home', onNavigate, onProfileNavigate, 
               <div 
                 className="absolute inset-0 bg-cover bg-center opacity-40"
                 style={{
-                  backgroundImage: 'url("/src/assets/images/background.png")',
+                  backgroundImage: 'url("/images/background.png")',
                 }}
               ></div>
               
@@ -96,7 +96,7 @@ const DashboardHeader = ({ currentPage = 'home', onNavigate, onProfileNavigate, 
               <div className="flex flex-col items-center gap-3 mt-4 relative z-10">
                 <div className="w-20 h-20 flex items-center justify-center">
                   <img 
-                    src="/src/assets/images/logo_mobile.png" 
+                    src="/images/logo_mobile.png" 
                     alt="Silver Thatch Pensions Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -255,7 +255,7 @@ const DashboardHeader = ({ currentPage = 'home', onNavigate, onProfileNavigate, 
                   }}
                 >
                   <img 
-                    src="/src/assets/images/logo2.png" 
+                    src="/images/logo2.png" 
                     alt="Silver Thatch Pensions Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -282,7 +282,7 @@ const DashboardHeader = ({ currentPage = 'home', onNavigate, onProfileNavigate, 
               >
                 <div className="w-10 h-10 flex items-center justify-center">
                   <img 
-                    src="/src/assets/images/logo2.png" 
+                    src="/images/logo2.png" 
                     alt="Logo" 
                     className="w-full h-full object-contain"
                   />
