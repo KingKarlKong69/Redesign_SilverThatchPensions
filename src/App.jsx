@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import UpdateInfo from './pages/UpdateInfo';
 import Statements from './pages/Statements';
 import Resources from './pages/Resources';
+import Properties from './pages/Properties';
 import ProfileSettings from './pages/ProfileSettings';
 import ChangePassword from './pages/ChangePassword';
 import ForgotPassword from './pages/ForgotPassword';
@@ -31,6 +32,8 @@ function App() {
         return <Statements onNavigate={handleNavigate} onStartTour={() => setIsTourActive(true)} />;
       case 'resources':
         return <Resources onNavigate={handleNavigate} onStartTour={() => setIsTourActive(true)} />;
+      case 'properties':
+        return <Properties onNavigate={handleNavigate} onStartTour={() => setIsTourActive(true)} />;
       case 'profile':
         return <ProfileSettings onNavigate={handleNavigate} onBack={() => setCurrentPage('home')} onStartTour={() => setIsTourActive(true)} />;
       case 'change-password':
