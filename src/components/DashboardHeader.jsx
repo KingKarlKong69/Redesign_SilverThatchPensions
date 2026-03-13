@@ -27,6 +27,7 @@ const DashboardHeader = ({ currentPage = 'home', onNavigate, onProfileNavigate, 
     { name: 'UPDATE MY INFO', page: 'update' },
     { name: 'STATEMENTS', page: 'statements' },
     { name: 'RESOURCES', page: 'resources' },
+    { name: 'PROPERTIES', page: 'properties' },
   ];
 
   const handleNavClick = (page) => {
